@@ -215,24 +215,24 @@
                     </div>
                 </div>
               
-                <form class="contact-form" action="https://formsubmit.com/chetan.agrawal.work@gmail.com" method="POST">
-    <!-- Disable captcha -->
-    <input type="hidden" name="_captcha" value="false">
-
-    <!-- Success message redirect -->
-    <input type="hidden" name="_next" value="https://chetansportfolio-three.vercel.app/thank-you.html">
-
+               <form target="_blank" 
+                   action="https://formsubmit.co/chetan.agrawal.work@gmail.com" method="POST">
     <div class="form-group">
-        <input type="text" name="name" placeholder="Your Name" required>
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
     </div>
     <div class="form-group">
-        <input type="email" name="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
     </div>
-    <div class="form-group">
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Send Message</button>
-</form>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</div>
             </div>
         </div>
     </section>
